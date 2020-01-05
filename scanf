@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//%d %f 忽略\n和空格，%c不忽略 
+int main()
+{
+	int i,j;
+	char c;
+	scanf("%d",&i);//阻塞的
+	printf("i=%d\n",i);
+	scanf("%d",&j);
+	printf("j=%d\n",j);//希望卡住
+	system("pause");
+}
