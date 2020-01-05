@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	float f=1.456;
+	double a,b;
+	a=1.23456789e10;
+	b=a+20;
+	printf("a=%f,b%f\n",a,b);
+	printf("f=%f\n",f);
+	if(f-1.456>-1e-6 && f-1.456<1e-6)
+	{
+		printf("f is equal to 1.456\n");
+	}
+	else
+	{
+		printf("f is not equal to 1.456\n");
+	}
+	system("pause");
+}
