@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define PI 3+2  //PI是符号常量
+int main()
+{
+	//所有变量要定义在最前面
+	int a=0x76;
+	int b=PI*PI;
+	int c=0166;//八进制
+	printf("c=%d\n",c);
+	printf("c=%o\n",c);
+	system("pause");
+}
